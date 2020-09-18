@@ -77,7 +77,7 @@ public class MethodTeacher
 
 public class MethodTester
 {
-    static void Main()
+    static void Main3()
     {
         MethodTeacher methodTeacher = new MethodTeacher();
 

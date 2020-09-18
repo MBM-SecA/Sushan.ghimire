@@ -1,15 +1,11 @@
-﻿// using System;
+﻿using System;
+using LearnCollections;
 
-// namespace CSharpBasics
-// {
-//     class Program
-//     {
-//         static void Main1()
-//         {
-//             (float,int,string) GetNumber(int x, string y)
-//             {
-//                 return (45.6f , 454, "a");
-//             }
-//         }
-//     }
-// }
+public class Program
+{
+    static void Main()
+    {
+        Collections collections = new Collections();
+        collections.LearnDictionary();
+    }
+}

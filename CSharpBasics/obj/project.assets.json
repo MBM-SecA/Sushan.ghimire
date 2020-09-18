@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\sixth sem\\NCC\\NET-Centric-Computing-MBM-A\\Sushan Ghimire - Student\\CSharpBasics\\CSharpBasics.csproj",
+      "projectUniqueName": "D:\\sixth sem\\NCC\\Lab\\Sushan.ghimire\\CSharpBasics\\CSharpBasics.csproj",
       "projectName": "CSharpBasics",
-      "projectPath": "D:\\sixth sem\\NCC\\NET-Centric-Computing-MBM-A\\Sushan Ghimire - Student\\CSharpBasics\\CSharpBasics.csproj",
+      "projectPath": "D:\\sixth sem\\NCC\\Lab\\Sushan.ghimire\\CSharpBasics\\CSharpBasics.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\sixth sem\\NCC\\NET-Centric-Computing-MBM-A\\Sushan Ghimire - Student\\CSharpBasics\\obj\\",
+      "outputPath": "D:\\sixth sem\\NCC\\Lab\\Sushan.ghimire\\CSharpBasics\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
