@@ -1,0 +1,26 @@
+D:\sixth sem\NCC\New folder\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.exe
+D:\sixth sem\NCC\New folder\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.deps.json
+D:\sixth sem\NCC\New folder\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.runtimeconfig.json
+D:\sixth sem\NCC\New folder\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.runtimeconfig.dev.json
+D:\sixth sem\NCC\New folder\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.dll
+D:\sixth sem\NCC\New folder\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.pdb
+D:\sixth sem\NCC\New folder\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.csprojAssemblyReference.cache
+D:\sixth sem\NCC\New folder\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.AssemblyInfoInputs.cache
+D:\sixth sem\NCC\New folder\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.AssemblyInfo.cs
+D:\sixth sem\NCC\New folder\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.csproj.CoreCompileInputs.cache
+D:\sixth sem\NCC\New folder\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.dll
+D:\sixth sem\NCC\New folder\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.pdb
+D:\sixth sem\NCC\New folder\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.genruntimeconfig.cache
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.csprojAssemblyReference.cache
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.AssemblyInfoInputs.cache
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.AssemblyInfo.cs
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.csproj.CoreCompileInputs.cache
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.dll
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.pdb
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.exe
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.deps.json
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.runtimeconfig.json
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.runtimeconfig.dev.json
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.dll
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\bin\Debug\netcoreapp3.1\CSharpBasics.pdb
+D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\CSharpBasics\obj\Debug\netcoreapp3.1\CSharpBasics.genruntimeconfig.cache
