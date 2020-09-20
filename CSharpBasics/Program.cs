@@ -5,7 +5,16 @@ public class Program
 {
     static void Main()
     {
-        Collections collections = new Collections();
-        collections.LearnDictionary();
+        // // Main program for collection 
+        // Collections collections = new Collections();
+        // collections.LearnDictionary();
+
+        // Main program for Inheritence:
+        var square = new Square(5.5);
+        square.Display();
+        square.GetDiagonal();
+        
+        var rectangle = new Rectangle(5.5, 2.5);
+        rectangle.Display();
     }
 }
