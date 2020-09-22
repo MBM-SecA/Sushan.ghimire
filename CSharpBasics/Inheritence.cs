@@ -23,7 +23,7 @@ public class Square : Rectangle
 {
     public Square(double side) : base(side, side)
     {
-        
+
     }
 }
 public class Rectangle : Shape, IShapeWithSides
@@ -41,7 +41,14 @@ public class Rectangle : Shape, IShapeWithSides
 
     public override void Display()
     {
-        Console.WriteLine($"Displaying results for rectangle with length [{Length} X {Breadth}]:");
+        if (Length == Breadth)
+        {
+            Console.WriteLine($"Displaying results for square with side [{Length}] :");
+        }
+        else
+        {
+            Console.WriteLine($"Displaying results for rectangle with length [{Length} X {Breadth}] :");
+        }
         Console.WriteLine($"Area: {this.GetArea()} square units");
         Console.WriteLine($"Circumference: {this.GetCircumference()} units ");
     }
