@@ -11,3 +11,16 @@ D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\Assignment
 D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\Assignment-1\obj\Debug\netcoreapp3.1\Assignment-1.dll
 D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\Assignment-1\obj\Debug\netcoreapp3.1\Assignment-1.pdb
 D:\sixth sem\NCC\NET-Centric-Computing-MBM-A\Sushan Ghimire - Student\Assignment-1\obj\Debug\netcoreapp3.1\Assignment-1.genruntimeconfig.cache
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\bin\Debug\netcoreapp3.1\Assignment-1.exe
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\bin\Debug\netcoreapp3.1\Assignment-1.deps.json
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\bin\Debug\netcoreapp3.1\Assignment-1.runtimeconfig.json
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\bin\Debug\netcoreapp3.1\Assignment-1.runtimeconfig.dev.json
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\bin\Debug\netcoreapp3.1\Assignment-1.dll
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\bin\Debug\netcoreapp3.1\Assignment-1.pdb
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\obj\Debug\netcoreapp3.1\Assignment-1.csprojAssemblyReference.cache
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\obj\Debug\netcoreapp3.1\Assignment-1.AssemblyInfoInputs.cache
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\obj\Debug\netcoreapp3.1\Assignment-1.AssemblyInfo.cs
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\obj\Debug\netcoreapp3.1\Assignment-1.csproj.CoreCompileInputs.cache
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\obj\Debug\netcoreapp3.1\Assignment-1.dll
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\obj\Debug\netcoreapp3.1\Assignment-1.pdb
+D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-1\obj\Debug\netcoreapp3.1\Assignment-1.genruntimeconfig.cache

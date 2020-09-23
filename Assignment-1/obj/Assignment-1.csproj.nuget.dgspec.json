@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\sixth sem\\NCC\\NET-Centric-Computing-MBM-A\\Sushan Ghimire - Student\\Assignment-1\\Assignment-1.csproj": {}
+    "D:\\sixth sem\\NCC\\Lab\\Sushan.ghimire\\Assignment-1\\Assignment-1.csproj": {}
   },
   "projects": {
-    "D:\\sixth sem\\NCC\\NET-Centric-Computing-MBM-A\\Sushan Ghimire - Student\\Assignment-1\\Assignment-1.csproj": {
+    "D:\\sixth sem\\NCC\\Lab\\Sushan.ghimire\\Assignment-1\\Assignment-1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\sixth sem\\NCC\\NET-Centric-Computing-MBM-A\\Sushan Ghimire - Student\\Assignment-1\\Assignment-1.csproj",
+        "projectUniqueName": "D:\\sixth sem\\NCC\\Lab\\Sushan.ghimire\\Assignment-1\\Assignment-1.csproj",
         "projectName": "Assignment-1",
-        "projectPath": "D:\\sixth sem\\NCC\\NET-Centric-Computing-MBM-A\\Sushan Ghimire - Student\\Assignment-1\\Assignment-1.csproj",
+        "projectPath": "D:\\sixth sem\\NCC\\Lab\\Sushan.ghimire\\Assignment-1\\Assignment-1.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\sixth sem\\NCC\\NET-Centric-Computing-MBM-A\\Sushan Ghimire - Student\\Assignment-1\\obj\\",
+        "outputPath": "D:\\sixth sem\\NCC\\Lab\\Sushan.ghimire\\Assignment-1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

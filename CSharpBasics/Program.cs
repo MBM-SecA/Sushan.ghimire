@@ -1,4 +1,6 @@
-﻿using System;
+﻿using System.IO;
+using System.Linq;
+using System;
 using LearnCollections;
 
 public class Program
@@ -21,7 +23,18 @@ public class Program
 
 
         // Main program for FileIO:
-        FileIO fileIO = new FileIO();
-        fileIO.LearnDirectories();
+        // FileIO fileIO = new FileIO();
+        // fileIO.LearnDirectories();
+
+
+        // Main program for listing countires whose name starts with N
+        string countriesText = File.ReadAllText("Countries.txt");
+        string[] countries = countriesText.Split("\n\r");
+
+        var countriesWithNInitial = countries.Select(x => x.StartsWith("N")).ToArray();
+        foreach (var country in countriesWithNInitial)
+        {
+            Console.WriteLine(country);
+        }
     }
 }
