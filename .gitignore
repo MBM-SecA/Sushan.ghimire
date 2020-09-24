@@ -358,3 +358,8 @@ MigrationBackup/
 bin/
 
 obj/
+CSharpBasics/bin/Debug/netcoreapp3.1/CSharpBasics.dll
+CSharpBasics/bin/Debug/netcoreapp3.1/CSharpBasics.dll
+CSharpBasics/obj/Debug/netcoreapp3.1/CSharpBasics.dll
+CSharpBasics/obj/Debug/netcoreapp3.1/CSharpBasics.pdb
+CSharpBasics/bin/Debug/netcoreapp3.1/CSharpBasics.pdb
