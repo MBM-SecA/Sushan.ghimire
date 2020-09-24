@@ -51,6 +51,6 @@ public class FileIO
             string fileName = $"{directoryName}/{subDirectoryName+i}/HelloWorld.cs";
             File.WriteAllText(fileName, helloWorldProgram);
         }
-        Console.WriteLine("Created folders and then added Hello World program successfully!!");
+        Console.WriteLine("Created folders and added Hello World program successfully!!");
     }
 }
