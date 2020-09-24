@@ -27,14 +27,19 @@ public class Program
         // fileIO.LearnDirectories();
 
 
-        // Main program for listing countires whose name starts with N
-        string countriesText = File.ReadAllText("Countries.txt");
-        string[] countries = countriesText.Split("\r\n");
+        // // Main program for listing countires whose name starts with N
+        // string countriesText = File.ReadAllText("Countries.txt");
+        // string[] countries = countriesText.Split("\r\n");
 
-        var countriesWithNInitial = countries.Where(x => x.StartsWith("N")).Select(x => x);
-        foreach (var country in countriesWithNInitial)
-        {
-            Console.WriteLine(country);
-        }
+        // var countriesWithNInitial = countries.Where(x => x.StartsWith("N")).Select(x => x);
+        // foreach (var country in countriesWithNInitial)
+        // {
+        //     Console.WriteLine(country);
+        // }
+
+
+        // Main program for creating  directories question
+        FileIO makeDirectories = new FileIO();
+        makeDirectories.CreateDirectories();
     }
 }
