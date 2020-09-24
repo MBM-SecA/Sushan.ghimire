@@ -29,9 +29,9 @@ public class Program
 
         // Main program for listing countires whose name starts with N
         string countriesText = File.ReadAllText("Countries.txt");
-        string[] countries = countriesText.Split("\n\r");
+        string[] countries = countriesText.Split("\r\n");
 
-        var countriesWithNInitial = countries.Select(x => x.StartsWith("N")).ToArray();
+        var countriesWithNInitial = countries.Where(x => x.StartsWith("N")).Select(x => x);
         foreach (var country in countriesWithNInitial)
         {
             Console.WriteLine(country);
