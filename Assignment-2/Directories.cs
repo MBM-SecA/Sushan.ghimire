@@ -5,7 +5,7 @@ public class Directories
 {
     public void CreateDirectories()
     {
-        string directoryName = @"D:\sixth sem\NCC\Parent";
+        string directoryName = @"D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-2\ABC";
         string subDirectoryName = "Subfolder";
         Directory.CreateDirectory(directoryName);
 
