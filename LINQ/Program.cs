@@ -33,11 +33,38 @@ namespace LINQ
                           where name.Length > 3 && name.ToLower().StartsWith("r")
                           select name;
 
+            // Projections
+            // Squaring of all numbers
+            var result5 = numbers.Select(x => x * x);
 
-            foreach (var name in result4)
+            // This can also be done using query expression as:
+            // var result5 = from num in numbers   
+            //                 select num*num;
+
+            // Ordering
+            var result6 = from num in result5
+                          orderby num
+                          select num;
+
+            // Take first 5 elements
+            var result7 = numbers.Take(5);
+
+            // Skip first 5 and take next 5
+            var result7b = numbers.Skip(5).Take(5);
+
+            // Quantifier
+            var result8 = numbers.Any(x => x % 2 == 0);
+            var result9 = numbers.All(x => x % 2 == 0);
+            var result10 = numbers.Contains(44);
+            Console.WriteLine(result10);
+
+            var result11 = Enumerable.Range(1, 1000);
+            var result12 = Enumerable.Repeat("Hello World", 10);
+
+            foreach (var num in result12)
             {
-                Console.WriteLine(name);
+                Console.WriteLine(num);
             }
-        } 
+        }
     }
 }
