@@ -7,7 +7,7 @@ namespace Async
 {
     class Program
     {
-        static async Task Main()
+        static async Task Main2()
         {
             // Making breakfast
 
