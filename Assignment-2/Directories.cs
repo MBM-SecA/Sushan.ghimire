@@ -15,7 +15,7 @@ public class Directories
         {
             string subDirectory = $"{directoryName}/{subDirectoryName + i}";
             Directory.CreateDirectory(subDirectory);
-            string fileName = $"{directoryName}/{subDirectoryName + i}/HelloWorld.cs";
+            string fileName = $"{directoryName}/{subDirectoryName + i}/HelloWorld.txt";
             File.WriteAllText(fileName, helloWorldProgram);
         }
         Console.WriteLine("Created folders and added Hello World program successfully!!");
