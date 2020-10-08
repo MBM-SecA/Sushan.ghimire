@@ -9,7 +9,7 @@ public class Directories
         string subDirectoryName = "Subfolder";
         Directory.CreateDirectory(directoryName);
 
-        string helloWorldProgram = File.ReadAllText(@"D:\sixth sem\NCC\Lab\Sushan.ghimire\Assignment-2\HelloWorld.cs");
+        string helloWorldProgram = "Hello Wrld";
 
         for (int i = 1; i <= 10; i++)
         {
