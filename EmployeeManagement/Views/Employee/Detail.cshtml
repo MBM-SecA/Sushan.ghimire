@@ -1,0 +1,16 @@
+@model Person
+@{
+    ViewData["TitlePhrase"] = "Employee";
+}
+
+<h1>Detail of an Employee</h1>
+
+
+<ul class="list-group">
+  <li class="list-group-item list-group-item-primary">
+      <h3>Name: @Model.FirstName @Model.Surname</h3>
+  </li>
+  <li class="list-group-item">Gender: @Model.Gender</li>
+  <li class="list-group-item">Address: @Model.Address</li>
+  <li class="list-group-item">Salary: @Model.Salary</li>
+</ul>
