@@ -1,0 +1,21 @@
+@model Person
+@{
+  ViewData["TitlePhrase"] = Model.FirstName;
+}
+<h1>Are you sure to delete the following data?</h1>
+<ul class="list-group">
+  <li class="list-group-item list-group-item-primary">
+    <h3>Name: @Model.FirstName @Model.Surname</h3>
+  </li>
+  <li class="list-group-item">Gender: @Model.Gender</li>
+  <li class="list-group-item">Address: @Model.Address</li>
+  <li class="list-group-item">Salary: @Model.Salary</li>
+</ul>
+<br />
+<br />
+
+<form asp-for="Employee" asp-action="Delete" method="POST">
+  <input type="hidden" asp-for="Id">
+  <button type="submit" class="btn btn-danger">Yes. Delete!</button>
+  <a class="btn btn-warning" href="/employee/index" role="button">No. Go Back!</a>
+</form>

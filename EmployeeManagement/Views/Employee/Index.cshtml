@@ -15,6 +15,8 @@
       <th scope="col">Address</th>
       <th scope="col">Gender</th>
       <th scope="col">Salary</th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -32,7 +34,11 @@
             <td>@employee.Address</td>
             <td>@employee.Gender</td>
             <td>@employee.Salary</td>
+            <td><a class="btn btn-warning" href="/employee/edit?id=@employee.Id" role="button">Edit</a></td>
+            <td><a class="btn btn-danger" href="/employee/delete?id=@employee.Id" role="button">Delete</a></td>
         </tr>
     }
   </tbody>
 </table>
+
+<a class="btn btn-primary" href="/employee/add" role="button">Add New Employee</a>
