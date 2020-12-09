@@ -1,0 +1,18 @@
+@model Department
+
+@{
+  var fn = Model.Name;
+  ViewData["TitlePhrase"] = fn;
+}
+
+<h1>Employee Detail<a class="btn btn-outline-success" href="/department/index" role="button">&larr;Go Back</a></h1>
+
+<ul class="list-group">
+  <li class="list-group-item list-group-item-primary">
+    <h3>Name : @fn</h3>
+  </li>
+  <li class="list-group-item">Code : @Model.Code</li>
+  <li class="list-group-item">Description : @Model.Description</li>
+  <li class="list-group-item">StartDate : @Model.StartDate</li>
+</ul>
+<hr>

@@ -1,42 +1,47 @@
 @model List<Person>
- 
+
 @{
   ViewData["TitlePhrase"] = "All Employees";
 }
- 
-<h1>Number of Employees (@Model.Count)</h1>
- 
+
+<h1> All Employees (@Model.Count)</h1>
+
 <table class="table">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">S.N.</th>
+      <th scope="col">S.N</th>
       <th scope="col">First Name</th>
       <th scope="col">Last Name</th>
       <th scope="col">Address</th>
       <th scope="col">Gender</th>
       <th scope="col">Salary</th>
+      <th scope="col">Department</th>
       <th></th>
       <th></th>
     </tr>
   </thead>
   <tbody>
-    @{int i = 1;}
+    @{
+      int i = 1;}
     @foreach (var employee in Model)
     {
-        <tr scope="row">
-            <td>@(i++)</td>
-            <td>
-              <a href="/employee/detail?id=@employee.Id">
-                  @employee.FirstName
-              </a>
-              </td>
-            <td>@employee.Surname</td>
-            <td>@employee.Address</td>
-            <td>@employee.Gender</td>
-            <td>@employee.Salary</td>
-            <td><a class="btn btn-warning" href="/employee/edit?id=@employee.Id" role="button">Edit</a></td>
-            <td><a class="btn btn-danger" href="/employee/delete?id=@employee.Id" role="button">Delete</a></td>
-        </tr>
+      <tr scope="row">
+        <td>@(i++)</td>
+        <td>
+          <a href="/employee/detail?id=@employee.Id">
+            @employee.FirstName
+          </a>
+        </td>
+        <td>@employee.Surname</td>
+        <td>@employee.Address</td>
+        <td>@employee.Gender</td>
+        <td>@employee.Salary</td>
+        <td>@employee.Department.Name</td>
+        <td><a class="btn btn-warning" href="/Employee/Edit?id=@employee.Id">Edit</a>
+          <a class="btn btn-danger" href="/Employee/Delete?id=@employee.Id">Delete</a>
+        </td>
+
+      </tr>
     }
   </tbody>
 </table>
