@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EMS.Api.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -12,7 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace EMSApi
+namespace EMS.Api
 {
     public class Startup
     {
@@ -27,7 +28,7 @@ namespace EMSApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<EMContext>(options => options.UseSqlite("Data Source=API.db"));
+            services.AddDbContext<EMSApiContext>(options => options.UseSqlite("Data Source=EMSapi.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
